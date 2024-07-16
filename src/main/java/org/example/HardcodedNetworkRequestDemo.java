@@ -13,7 +13,7 @@ public class HardcodedNetworkRequestDemo {
         StringBuilder response = new StringBuilder();
         try {
             // 创建URL对象
-            URL url = new URL(EXAMPLE_URI);
+            URL url = new URL("http://1.1.1.1");
 
             // 打开连接
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
