@@ -20,7 +20,9 @@ public class test02 {
 
             // 硬编码的 IP 地址 URI 示例
             URI ipUri = new URI("http://192.168.1.1");
-
+            URI ipUriOnly = new URI("192.168.1.1");
+            URI ipUriOnlyWithPort = new URI("192.168.1.1:9000");
+            URI ipUriOnlyWithPortPath = new URI("192.168.1.1:9000/webapp?username=admin");
             // 硬编码的文件路径示例
             File file1 = new File("C:/path/to/file.txt");
             File file2 = new File("/home/user/file.txt");
