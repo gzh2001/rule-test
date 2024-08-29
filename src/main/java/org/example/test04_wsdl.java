@@ -16,6 +16,7 @@ import javax.xml.ws.WebServiceClient;
 @javax.xml.bind.annotation.XmlSchema(namespace = "http://www.git3.com")
 @XmlSchema(namespace = "http://www.git3.com")
 public class test04_wsdl {
+
     private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
 
 
