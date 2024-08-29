@@ -13,8 +13,8 @@ import javax.xml.ws.WebServiceClient;
 @XmlType(namespace = "http://www.git3.com")
 @WebServiceClient(wsdlLocation = "http://www.git4.com")
 @WebParam(targetNamespace = "http://www.git5.com")
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.git3.com")
-@XmlSchema(namespace = "http://www.git3.com")
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.git6.com")
+@XmlSchema(namespace = "http://www.git7.com")
 public class test04_wsdl {
 
     private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
