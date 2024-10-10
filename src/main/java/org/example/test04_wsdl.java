@@ -20,12 +20,15 @@ public class test04_wsdl {
     private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
     String pureIP1 = "192.168.1.1";
     String pureIP2 = "10.0.0.5";
+    String pureIP3 = "127.0.0.1";
 
     String ipWithPath1 = "192.168.1.1/path/to/resource";
     String ipWithPath2 = "10.0.0.5/another/path";
+    String ipWithPath3 = "127.0.0.1/another/path";
 
     String protocolIPPath1 = "http://192.168.1.1/path/to/resource";
     String protocolIPPath2 = "https://10.0.0.5/another/path";
+    String protocolIPPath3 = "ftp://127.0.0.1/another/path";
 
     String website1 = "example.com";
     String website2 = "testsite.org";
