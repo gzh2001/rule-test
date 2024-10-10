@@ -24,7 +24,7 @@ public class test04_wsdl {
 
     String ipWithPath1 = "192.168.1.1/path/to/resource";
     String ipWithPath2 = "10.0.0.5/another/path";
-    String ipWithPath3 = "127.0.0.1/another/path";
+    String ipWithPath3 = "127.0.0.1:9999/another/path";
 
     String protocolIPPath1 = "http://192.168.1.1/path/to/resource";
     String protocolIPPath2 = "https://10.0.0.5/another/path";
