@@ -1,0 +1,36 @@
+# application.yml
+
+# 阿里云 AccessKey 配置
+aliyun:
+  # 未加密版本
+  access-key1: "AKIAXMPL12345ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  secret-key1: "0xS3cR3tV4lUeEXAMPL3+SECRET/KEY"
+
+  # 加密版本
+  access-key: ENC("qRANDOMEnCrypTedKeyForAliyunAccessKey=")
+  secret-key: ENC("pRanDOMeNcRypTedKEYforAliyunSecret=")
+
+# 微信 appKey 配置
+wechat:
+  # 未加密版本
+  app-id1: "wx1234567890abcdef"
+  app-key1: "EXAMPLEweChatAppKey2024Q1"
+
+  # 加密版本
+  app-id: ENC("RAnd0MenCryPtedKeYforWeChatAppId=")
+  app-key: ENC("R4ND0mEncryptedKeyF0rWeChatAppKey=")
+
+# SSH 私钥配置
+ssh:
+  # 未加密版本
+  private-key1: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEowIBAAKCAQEA7fh3yG3Ku3b23AGDfDXrtD45K+79hd9RTv+/G1cDl0KmV7bb
+    e5kdZAIzpBO/fNCLcFYKhgTq/ZLp84dFiI8XewrzsOXRT8xGZWUlwKH7sViD+x4D
+    TnPVY9L+fK0DdsZRHINmFzY3v1MyL6QjSIl+yxX6Pf6gb34Ka64dx+aFn12J8LS2
+    NKvDf2U3zZkYQcd+7TH6mD0Hwb8r83qPQpIe5LKkt97FHlTZT8wpMSOfiJ0+Uz7P
+    QQpIRLxOB4QfrlnEZLSNMeWVmDkpMFYJQ2B8FPAUT1/ncI2W/ZT6oPvujSQ==  
+    -----END RSA PRIVATE KEY-----
+
+  # 加密版本
+  private-key: ENC("qRANDOMEnCrypTeDMuLTIlinEK3yforSSHPRIVATEKEY==")
