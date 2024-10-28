@@ -45,3 +45,4 @@ jobs:
           -Dsonar.branch.name=${{ github.GITHUB_REF_NAME }}
           -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }}
           -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+          -Dsonar.analysis.commitSHA=${{ github.sha }}
