@@ -15,6 +15,7 @@ import javax.xml.ws.WebServiceClient;
 @WebParam(targetNamespace = "http://www.git5.com")
 @javax.xml.bind.annotation.XmlSchema(namespace = "http://www.git6.com")
 @XmlSchema(namespace = "http://www.git7.com")
+@RequestMapping(path="/test")
 public class test04_wsdl {
 
     private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
