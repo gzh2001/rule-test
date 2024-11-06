@@ -40,4 +40,48 @@ public class test04_wsdl {
     String protocolWebsitePath2 = "https://testsite.org/another/path";
 
 
+    // Windows 路径示例
+    public static final String WINDOWS_FILE_PATH_1 = "C:\\Users\\User\\Documents\\file1.txt";
+    public static final String WINDOWS_FILE_PATH_2 = "C:\\Program Files\\MyApp\\config.xml";
+
+    // Linux 路径示例
+    public static final String LINUX_FILE_PATH_1 = "/home/user/documents/file1.txt";
+    public static final String LINUX_FILE_PATH_2 = "/etc/myapp/config.xml";
+
+    // macOS 路径示例
+    public static final String MAC_FILE_PATH_1 = "/Users/user/Documents/file1.txt";
+    public static final String MAC_FILE_PATH_2 = "/Applications/MyApp/config.xml";
+
+    // URL 路径示例
+    public static final String URL_PATH_1 = "http://example.com/files/file1.txt";
+    public static final String URL_PATH_2 = "https://example.com/app/config.json";
+
+    // 文件相对路径示例
+    public static final String RELATIVE_PATH_1 = "./documents/file1.txt";
+    public static final String RELATIVE_PATH_2 = "../config/config.xml";
+
+    // 特殊路径示例
+    public static final String NETWORK_PATH = "\\\\192.168.1.100\\shared\\file1.txt";
+    public static final String TEMP_DIR = "/tmp/app/logs/";
+
+    // HTTP 协议示例
+    public static final String HTTP_URL_1 = "http://203.0.113.10/api/v1/data";
+    public static final String HTTP_URL_2 = "http://198.51.100.20:8080/service/query";
+    public static final String HTTP_URL_3 = "http://203.0.113.100:9090/app/execute?wsdl";
+
+    // HTTPS 协议示例
+    public static final String HTTPS_URL_1 = "https://203.0.113.10:443/api/v2/submit";
+    public static final String HTTPS_URL_2 = "https://198.51.100.30:8443/login";
+    public static final String HTTPS_URL_3 = "https://203.0.113.50/service/soap?wsdl";
+
+    // 带有查询参数的 URL 示例
+    public static final String HTTP_URL_WITH_PARAM_1 = "http://203.0.113.10:80/data?wsdl";
+    public static final String HTTPS_URL_WITH_PARAM_1 = "https://198.51.100.40/api/v1/process?wsdl&version=1.2";
+    public static final String HTTP_URL_WITH_PARAM_2 = "http://203.0.113.100:8080/user/getData?wsdl&id=12345";
+
+    // 更多 URL 示例
+    public static final String HTTPS_URL_4 = "https://203.0.113.100/api/login?token=abc123";
+    public static final String HTTP_URL_4 = "http://198.51.100.50:9000/query?wsdl&date=2024-11-06";
+
+
 }
