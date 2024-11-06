@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlSchema;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.namespace.QName;
 import javax.xml.ws.WebServiceClient;
+import java.net.URL;
 
 @WebService(targetNamespace="http://www.git1.com")
 @XmlElementDecl(namespace = "http://www.git2.com")
@@ -17,7 +18,7 @@ import javax.xml.ws.WebServiceClient;
 @XmlSchema(namespace = "http://www.git7.com")
 @RequestMapping(path="/test")
 public class test04_wsdl {
-
+    URL myObject = new URL("https://www.example.com");
     private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
     String pureIP1 = "192.168.1.1";
     String pureIP2 = "10.0.0.5";
