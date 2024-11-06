@@ -72,11 +72,11 @@ public class test04_wsdl {
     // HTTPS 协议示例
     public static final String HTTPS_URL_1 = "https://203.0.113.10:443/api/v2/submit";
     public static final String HTTPS_URL_2 = "https://198.51.100.30:8443/login";
-    public static final String HTTPS_URL_3 = "https://203.0.113.50/service/soap?wsdl";
+    public static final String HTTPS_URL_3 = "https://203.0.113.50/service/soap?WSdl";
 
     // 带有查询参数的 URL 示例
-    public static final String HTTP_URL_WITH_PARAM_1 = "http://203.0.113.10:80/data?wsdl";
-    public static final String HTTPS_URL_WITH_PARAM_1 = "https://198.51.100.40/api/v1/process?wsdl&version=1.2";
+    public static final String HTTP_URL_WITH_PARAM_1 = "http://203.0.113.10:80/data?WSDL";
+    public static final String HTTPS_URL_WITH_PARAM_1 = "https://198.51.100.40/api/v1/process?wsDL&version=1.2";
     public static final String HTTP_URL_WITH_PARAM_2 = "http://203.0.113.100:8080/user/getData?wsdl&id=12345";
 
     // 更多 URL 示例
