@@ -32,7 +32,7 @@ public class test04_wsdl {
     String protocolIPPath3 = "ftp://127.0.0.1:7777/another/path";
 
     String website1 = "example.com";
-    String website2 = "testsite.org";
+    String website2 = website1 + "testsite.org";
 
     String websiteWithPath1 = "example.com/path/to/resource";
     String websiteWithPath2 = "testsite.org/another/path";
@@ -50,6 +50,7 @@ public class test04_wsdl {
     public static final String LINUX_FILE_PATH_2 = "/etc/myapp/config.xml";
 
     // macOS 路径示例
+    public static final String MAC_FILE_PATH_0 = "user/Documents/file1.txt";
     public static final String MAC_FILE_PATH_1 = "/Users/user/Documents/file1.txt";
     public static final String MAC_FILE_PATH_2 = "/Applications/MyApp/config.xml";
 
