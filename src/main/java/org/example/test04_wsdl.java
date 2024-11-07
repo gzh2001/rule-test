@@ -7,6 +7,8 @@ import javax.xml.bind.annotation.XmlSchema;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.namespace.QName;
 import javax.xml.ws.WebServiceClient;
+import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -19,9 +21,11 @@ import java.net.URL;
 @XmlSchema(namespace = "http://www.git7.com")
 @RequestMapping(path="/test")
 public class test04_wsdl {
-     URL myObject = new URL("https://www.example.com");  // 反
+    URL myObject = new URL("https://www.example.com");  // 反
     URL url1 = new URL("http://203.0.113.10/api/v1/data");  // 正
-    private final static QName QNAME = new QName("http://www.git123qname.com", "test3");  // 反
+    HttpURLConnection connection = (HttpURLConnection) url1.openConnection();
+    private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
+    private final static QName QNAME2 = new QName("http://203.0.113.10/api/v1/data", "test3");// 反
     String pureIP1 = "192.168.1.1";  // 反
     String pureIP2 = "10.0.0.5";  // 正
     String pureIP3 = "127.0.0.1";  // 反
@@ -89,6 +93,6 @@ public class test04_wsdl {
     public static final String HTTP_URL_4 = "http://198.51.100.50:9000/query?wsdl&date=2024-11-06";  // 反
 
 
-    public test04_wsdl() throws MalformedURLException {
+    public test04_wsdl() throws IOException {
     }
 }
