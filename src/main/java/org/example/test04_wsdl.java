@@ -70,7 +70,7 @@ public class test04_wsdl {
     public static final String RELATIVE_PATH_2 = "../config/config.xml";  // 正
 
     // 特殊路径示例
-    public static final String NETWORK_PATH = "\\\\192.168.1.100\\shared\\file1.txt";  // 正
+    public static final String NETWORK_PATH = "\\\\192.168.1.100\\shared\\file1.txt";  // 反
     public static final String TEMP_DIR = "/tmp/app/logs/";  // 正
 
     // HTTP 协议示例
@@ -85,8 +85,8 @@ public class test04_wsdl {
 
     // 带有查询参数的 URL 示例
     public static final String HTTP_URL_WITH_PARAM_1 = "http://203.0.113.10:80/data?WSDL";  // 反
-    public static final String HTTPS_URL_WITH_PARAM_1 = "https://198.51.100.40/api/v1/process?wsDL&version=1.2";  // 正
-    public static final String HTTP_URL_WITH_PARAM_2 = "http://203.0.113.100:8080/user/getData?wsdl&id=12345";  // 正
+    public static final String HTTPS_URL_WITH_PARAM_1 = "https://198.51.100.40/api/v1/process?wsDL&version=1.2";  // 反
+    public static final String HTTP_URL_WITH_PARAM_2 = "http://203.0.113.100:8080/user/getData?wsdl&id=12345";  // 反
 
     // 更多 URL 示例
     public static final String HTTPS_URL_4 = "https://203.0.113.100/api/login?token=abc123";  // 正
