@@ -69,7 +69,7 @@ public class test04_wsdl {
     public static final String RELATIVE_PATH_2 = "../config/config.xml";  // 正
 
     // 特殊路径示例
-    public static final String NETWORK_PATH = "\\\\203.0.113.10\\shared\\file1.txt";  // 反
+    public static final String NETWORK_PATH = "\\\\203.0.113.10\\shared\\file1.txt";  // 正
     public static final String TEMP_DIR = "/tmp/app/logs/";  // 正
 
     // HTTP 协议示例
