@@ -23,8 +23,7 @@ import java.net.URL;
 public class test04_wsdl {
     URL myObject = new URL("https://www.example.com");  // 反
     URL url1 = new URL("http://203.0.113.10/api/v1/data");  // 正
-    HttpURLConnection connection = (HttpURLConnection) url1.openConnection();
-    private final static QName QNAME = new QName("http://www.git123qname.com", "test3");
+    private final static QName QNAME = new QName("http://www.git123qname.com", "test3");// 反
     private final static QName QNAME2 = new QName("http://203.0.113.10/api/v1/data", "test3");// 反
     String pureIP1 = "192.168.1.1";  // 反
     String pureIP2 = "10.0.0.5";  // 正
