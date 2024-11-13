@@ -12,14 +12,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-@WebService(targetNamespace="http://www.git1.com")
-@XmlElementDecl(namespace = "http://www.git2.com")
-@XmlType(namespace = "http://www.git3.com")
-@WebServiceClient(wsdlLocation = "http://www.git4.com")
-@WebParam(targetNamespace = "http://www.git5.com")
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.git6.com")
-@XmlSchema(namespace = "http://www.git7.com")
-@RequestMapping(path="/test")
+
 public class test04_wsdl {
     URL myObject = new URL("https://www.example.com");  // 反
     URL url1 = new URL("http://203.0.113.10/api/v1/data");  // 正
