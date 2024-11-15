@@ -43,6 +43,7 @@ public class test04_wsdl {
     // Windows 路径示例
     public static final String WINDOWS_FILE_PATH_1 = "C:\\Users\\User\\Documents\\file1.txt";  // 正
     public static final String WINDOWS_FILE_PATH_2 = "C:\\Program Files\\MyApp\\config.xml";  // 正
+    public static final String WINDOWS_FILE_PATH_3 = "D:\\小程序\\";  // 正
 
     // Linux 路径示例
     public static final String LINUX_FILE_PATH_1 = "/home/user/documents/file1.txt";  // 正
