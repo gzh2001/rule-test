@@ -38,6 +38,11 @@ public final class ContentTypeConstants {
     public static final String MULTIPART_FORM_DATA = "multipart/form-data";
     public static final String MULTIPART_MIXED = "multipart/mixed";
 
+    private static final String DATE1 = "yyyy/MM/dd";
+    private static final String DATE2 = "MM/dd/yyyy";
+    private static final String DATE3 = "dd/MM/yyyy";
+
+
     // Private constructor to prevent instantiation
     private ContentTypeConstants() {
         throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
