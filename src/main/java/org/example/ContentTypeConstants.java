@@ -41,7 +41,9 @@ public final class ContentTypeConstants {
     private static final String DATE1 = "yyyy/MM/dd";
     private static final String DATE2 = "MM/dd/yyyy";
     private static final String DATE3 = "dd/MM/yyyy";
-
+    private static final String DATE1_1 = "yy/MM/dd hh:mm:ss";
+    private static final String DATE2_1 = "MM/dd/yyyy HH:mm:ss";
+    private static final String DATE3_1 = "dd/MM/yyyy hh:mm:ss";
 
     // Private constructor to prevent instantiation
     private ContentTypeConstants() {
