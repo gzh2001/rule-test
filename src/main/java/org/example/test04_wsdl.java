@@ -85,6 +85,7 @@ public class test04_wsdl {
     public static final String HTTPS_URL_4 = "https://203.0.113.100/api/login?token=abc123";  // 正
     public static final String HTTP_URL_4 = "http://198.51.100.50:9000/query?wsdl&date=2024-11-06";  // 反
 
+    String res = HttpURLConnection.getDataFromURL("http://12.12.9.23:8095/iap/workspaces");  // 反
 
     public test04_wsdl() throws IOException {
     }
