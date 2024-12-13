@@ -37,6 +37,7 @@ public final class ContentTypeConstants {
     // Multipart Content Types
     public static final String MULTIPART_FORM_DATA = "multipart/form-data";
     public static final String MULTIPART_MIXED = "multipart/mixed";
+    public static final String MULTIPART_SPECIAL = "multipart/mixed;encode=utf8";
 
     private static final String DATE1 = "yyyy/MM/dd";
     private static final String DATE2 = "MM/dd/yyyy";
