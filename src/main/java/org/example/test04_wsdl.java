@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlSchema;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.namespace.QName;
 import javax.xml.ws.WebServiceClient;
+import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -87,6 +88,12 @@ public class test04_wsdl {
 
     String res = HttpURLConnection.getDataFromURL("http://12.12.9.23:8095/iap/workspaces");  // 反
 
+    // 分隔符测试
+    public static final String delimiter_1 = test04_wsdl.HTTPS_URL_4 + '/' + HTTP_URL_4;  // 正
+    public static final String delimiter_2 = test04_wsdl.HTTPS_URL_4 + File.separator + HTTP_URL_4; // 正
+
     public test04_wsdl() throws IOException {
     }
 }
+
+
