@@ -90,7 +90,7 @@ public class test04_wsdl {
 
     // 分隔符测试
     public static final String delimiter_1 = test04_wsdl.HTTPS_URL_4 + '/' + HTTP_URL_4;  // 正
-    public static final String delimiter_2 = test04_wsdl.HTTPS_URL_4 + File.separator + HTTP_URL_4; // 正
+    public static final String delimiter_2 = test04_wsdl.HTTPS_URL_4 + File.separator + HTTP_URL_4; // 反
 
     public test04_wsdl() throws IOException {
     }
