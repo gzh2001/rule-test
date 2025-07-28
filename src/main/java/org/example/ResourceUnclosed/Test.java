@@ -1,4 +1,4 @@
-package org.example.resource;
+package org.example.ResourceUnclosed;
 
 import cn.com.git.uc.sync.model.RequestResult;
 import org.apache.http.HttpStatus;
