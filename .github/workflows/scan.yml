@@ -15,7 +15,10 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    permissions: read-all
+    permissions:
+      contents: read       # 允许 checkout 代码 (只读)
+      pull-requests: write  # 允许 SonarQube 在 PR 中添加评论
+      checks: write         # 允许 SonarQube 创建/更新 status check
     steps:
       - uses: actions/checkout@v2
         with:
