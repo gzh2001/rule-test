@@ -34,7 +34,7 @@ jobs:
       - name: Setup SonarQube
         uses: gzh2001/setup-sonar-scanner@master
         with:
-          version: 6.0.0.4432
+          version: 6.1.0.4477
 
       # - uses: sonarsource/sonarqube-scan-action@master
       #   env:
