@@ -42,6 +42,7 @@ jobs:
 
       - name: Sonar-scanner
         run: sonar-scanner
+          -Dsonar.properties=sonar-project-test.properties
           -Dsonar.branch.name=${{ github.GITHUB_REF_NAME }}
           -Dsonar.host.url=${{ secrets.SONAR_TEST_HOST_URL }}
           -Dsonar.token=${{ secrets.SONAR_TEST_TOKEN }}
