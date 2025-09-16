@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '17'
+          java-version: '21'
 
         # Setup sonar-scanner
       - name: Setup SonarQube
@@ -46,4 +46,3 @@ jobs:
           -Dsonar.branch.name=${{ github.GITHUB_REF_NAME }}
           -Dsonar.host.url=${{ secrets.SONAR_TEST_HOST_URL }}
           -Dsonar.token=${{ secrets.SONAR_TEST_TOKEN }}
-          -Dsonar.analysis.commitSHA=${{ github.sha }}
